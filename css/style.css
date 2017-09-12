@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: robotob;
-  src: url('../Roboto-Bold.ttf');
+  src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @font-face {
   font-family: bebas;
-  src: url('../BebasNeue Bold.otf');
+  src: url('../fonts/BebasNeue Bold.otf');
 }
 
 .site-container {
