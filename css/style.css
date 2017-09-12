@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: robotob;
-  src: url('../Roboto-Bold.ttf');
+  src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @font-face {
   font-family: bebas;
-  src: url('../BebasNeue Bold.otf');
+  src: url('../fonts/BebasNeue Bold.otf');
 }
 
 .site-container {
@@ -48,7 +48,7 @@
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url('../logo.png');
+  background-image: url('../img/logo.png');
 }
 
 .bebas {
