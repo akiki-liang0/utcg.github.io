@@ -1,0 +1,99 @@
+#icon {
+  margin-right: 10px;
+}
+
+@font-face {
+  font-family: robotob;
+  src: url('../Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: bebas;
+  src: url('../BebasNeue Bold.otf');
+}
+
+.site-container {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.page-heading {
+  font-family: bebas;
+  font-size: 42px;
+  margin-bottom: 2.5%;
+
+}
+
+#mission, #resources, #contact {
+  background-color: #f4f4f4;
+}
+
+.page-container {
+  padding: 10%;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.header {
+  font-family: robotob;
+  font-size: 16px;
+}
+
+.bglogo {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../logo.png');
+}
+
+.bebas {
+  font-family: bebas;
+}
+
+.robotothin {
+  font-family: 'Roboto', sans-serif;
+}
+
+.robotobold {
+  font-family: robotob;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#page-title {
+  font-size: 25px;
+}
+
+#team img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.event {
+  font-family: 'Roboto', sans-serif;
+}
+
+.inter {
+  margin-bottom: 5%;
+}
+
+.member {
+  width: 20%;
+  margin: 2%;
+  display: inline-block;
+}
+
+@media only screen and (max-width:700px) {
+  .member {
+    width: 100%;
+    margin: 1%;
+    display: inline-block;
+  }
+}
