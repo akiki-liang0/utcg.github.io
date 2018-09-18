@@ -34,10 +34,20 @@
   padding: 10%;
 }
 
-.text {
+p {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
+
+b {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 15px;
+}
+
+/* .text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+} */
 
 .header {
   font-family: robotob;
