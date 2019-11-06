@@ -17,8 +17,8 @@ export class Banner extends Component {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1 className="wow fadeInUp">We are creative digital agency</h1>
-                                        <p className="wow fadeInDown">Lorem ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h1 className="wow fadeInUp">Welcome to UTCG!</h1>
+                                        <p className="wow fadeInDown">The University of Toronto Computer Graphics Club has a mission is to create a supportive learning community that provides graphics-related workshops, research talks, field trips and social events for people who are interested in any part of computer graphics!</p>
                                         <a href="#" className="btn btn-primary wow fadeInLeft">Get Started</a>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ export class Banner extends Component {
                         </li>
                     </ul>
                 </div>
-                
+
                 <div className="shape1">
                     <img src={require("../../images/shapes/1.png")} alt="shape" />
                 </div>
