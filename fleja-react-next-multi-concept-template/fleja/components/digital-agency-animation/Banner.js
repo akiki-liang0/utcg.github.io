@@ -30,7 +30,7 @@ export class Banner extends Component {
                 <div className="banner-social-buttons">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/UTComputerGraphics">
                                 <i className="icofont-facebook"></i>
 
                                 <span>Facebook</span>
@@ -38,15 +38,7 @@ export class Banner extends Component {
                         </li>
 
                         <li>
-                            <a href="#">
-                                <i className="icofont-twitter"></i>
-
-                                <span>Twitter</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/utcomputergraphics">
                                 <i className="icofont-instagram"></i>
 
                                 <span>Instagram</span>
