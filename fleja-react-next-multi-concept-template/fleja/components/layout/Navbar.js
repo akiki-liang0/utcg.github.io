@@ -68,7 +68,7 @@ export class Navbar extends Component {
                 <div id="navbar" className={`artflex-nav ${layOutCls}`}>
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
-                            <Link href="/digital-agency">
+                            <Link href="/home">
                                 <a className="navbar-brand">
                                     <img src={require("../../images/logo.png")} alt="logo" />
                                 </a>
@@ -91,8 +91,8 @@ export class Navbar extends Component {
                                     <li className="nav-item"><a href="#" className="nav-link">Home <i className="icofont-simple-down"></i></a>
                                         <ul className="dropdown_menu">
                                             <li className="nav-item">
-                                                <Link activeClassName="active" href="/digital-agency">
-                                                    <a className="nav-link">Digital Agency</a>
+                                                <Link activeClassName="active" href="/home">
+                                                    <a className="nav-link">Home</a>
                                                 </Link>
                                             </li>
                                             

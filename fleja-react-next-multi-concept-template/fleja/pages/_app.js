@@ -29,7 +29,7 @@ export default withRedux(initStore)(
             return (
                 <React.Fragment>
                     <DefaultSeo
-                        title="Fleja | React Next Multi-Concepts Templates"
+                        title="UTCG - University of Toronto Computer Graphics"
                         description="Fleja | React Next Multi-Concepts Templates. This has been built with React, Next.js, Express.js, and ES6+"
                         openGraph={{
                             type: 'website',
@@ -42,7 +42,7 @@ export default withRedux(initStore)(
                         <Provider store={store}>
                             <Component {...pageProps} />
                         </Provider>
-                        <GoTop scrollStepInPx="50" delayInMs="16.66" />
+                        <GoTop scrollStepInPx="100" delayInMs="0.5" />
                         <Placeholder>
                             <Loader />
                         </Placeholder>
