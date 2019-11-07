@@ -27,6 +27,10 @@ module.exports = withPlugins([
             preset: 'default',
             quality: 75,
         },
+        env: {
+            CALENDAR_ID: process.env.CALENDAR_ID,
+            CALENDAR_API_KEY: process.env.CALENDAR_API_KEY,
+        },
     }],
     [withCSS],[withFonts],[withSass]
 ]);
