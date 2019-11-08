@@ -53,6 +53,5 @@
     "style-loader": "^1.0.0",
     "superagent": "^5.1.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

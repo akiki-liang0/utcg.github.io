@@ -10,7 +10,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 *******************************************
 
-==== INDEX PAGE CSS 
+==== INDEX PAGE CSS
 
 ** - Default CSS
 ** - Preloader CSS
@@ -62,8 +62,9 @@ $template-color: #38d16a;
 $pink-color: #F54EA2;
 $white-color: #ffffff;
 $black-color: #121619;
-$paragraph-color: #6084a4;
+$paragraph-color: #00ffff;
 $bg-gray: #f9f9f9;
+$banner-color-dark: #0f1239;
 $transition: .5s;
 $font-size: 15px;
 
@@ -112,7 +113,7 @@ p {
     }
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: $black-color;
+    color: $white-color;
     font-weight: 500;
 }
 .ptb-120 {
@@ -260,7 +261,7 @@ p {
             right: 15px;
             text-align: center;
             top: 50%;
-    
+
             .owl-dot {
                 display: block;
 
@@ -381,17 +382,17 @@ Preloader CSS
             right: 2px;
         }
     }
-    
+
     @keyframes loader{
-        0% { 
-            transform:rotate(0deg); 
+        0% {
+            transform:rotate(0deg);
         }
-        100% { 
-            transform:rotate(360deg); 
+        100% {
+            transform:rotate(360deg);
         }
     }
 }
- 
+
 /*================================================
 Navbar CSS
 =================================================*/
@@ -438,7 +439,7 @@ Navbar CSS
                         weight: 500;
                         size: 14px;
                     }
-                    color: $black-color;
+                    color: $white-color;
                     padding: {
                         left: 0;
                         right: 0;
@@ -672,8 +673,11 @@ Navbar CSS
         padding: 5px 0;
         z-index: 999;
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-        background-color: $white-color !important;
+        background-color: $black-color !important;
+        background-image: url('../../images/shapes/cube_corner.png');
+
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+        background-repeat: no-repeat
     }
 }
 .searchBoxTop {
@@ -759,7 +763,7 @@ Navbar CSS
 }
 .sidebar-modal {
     position: relative;
-    
+
     .modal.right {
         .modal-dialog {
             position: fixed;
@@ -807,10 +811,10 @@ Navbar CSS
                     padding: 0;
                     margin: 0;
                     list-style-type: none;
-    
+
                     li {
                         margin-bottom: 10px;
-    
+
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -831,7 +835,7 @@ Navbar CSS
                             }
                             padding-left: 50px;
                             margin-bottom: 18px;
-    
+
                             i {
                                 position: absolute;
                                 left: 0;
@@ -873,7 +877,7 @@ Navbar CSS
                             display: inline-block;
                             margin-bottom: 0;
                             margin-right: 5px;
-    
+
                             a {
                                 width: 32px;
                                 height: 32px;
@@ -883,7 +887,7 @@ Navbar CSS
                                 border-radius: 50%;
                                 color: $paragraph-color;
                                 border: 1px solid $paragraph-color;
-    
+
                                 &:hover, &:focus {
                                     color: $white-color;
                                     background: $template-color;
@@ -962,7 +966,7 @@ Main Banner CSS
     height: 810px;
 }
 .digital-agency-banner {
-    background-image: url('../../images/banner-bg.jpg');
+    background-image: url('../../images/banner_bkg.jpg');
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -1003,7 +1007,7 @@ Main Banner CSS
                 text-align: center;
                 border: 1px solid #eeeeee;
                 border-radius: 50%;
-                
+
                 &.facebook {
                     border-color: #4267b2;
                     color: #4267b2;
@@ -1134,7 +1138,7 @@ Main Banner CSS
             transform: rotate(135deg);
         }
         &::before {
-            animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;    
+            animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
             position: absolute;
             top: 0;
             left: 50%;
@@ -1481,25 +1485,25 @@ Main Banner CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 .rotateme {
     animation-name: rotateme;
@@ -1542,7 +1546,7 @@ Boxes Area CSS
             left: 30px;
             right: 30px;
         }
-    
+
         .icon {
             font-size: 50px;
             color: $white-color;
@@ -1845,7 +1849,7 @@ About CSS
     overflow: hidden;
     position: relative;
     z-index: 1;
-    background-color: $white-color;
+    background-color: $banner-color-dark;
 }
 .cta-about-image {
     background: {
@@ -1899,7 +1903,7 @@ Why Choose Us CSS
             }
         }
     }
-    
+
 }
 .why-choose-us-img {
     margin-bottom: 35px;
@@ -2323,7 +2327,7 @@ Feedback CSS
                 position: absolute;
                 left: 160px;
                 bottom: -11px;
-        
+
                 [class*=owl-] {
                     transition: $transition;
                     font-size: 25px;
@@ -2336,7 +2340,7 @@ Feedback CSS
                     width: auto;
                     height: auto;
                     line-height: unset;
-    
+
                     &:hover {
                         color: $pink-color;
                         background: transparent;
@@ -2729,7 +2733,7 @@ Team CSS
     }
     0% {
         background: $pink-color;
-    } 
+    }
 }
 
 /*================================================
@@ -2934,7 +2938,7 @@ Our Skill CSS
         background-color: #d5d5d5;
 
         .progress-bar {
-            background-color: $template-color; 
+            background-color: $template-color;
         }
     }
 }
@@ -3075,7 +3079,7 @@ Blog CSS
             }
             .post-tag {
                 top: 70px;
-    
+
                 a {
                     background: $pink-color;
                     color: $white-color;
@@ -3341,7 +3345,7 @@ Pagination CSS
                     weight: 500;
                 }
                 border: 1px solid #eeeeee;
-    
+
                 &:hover, &:focus {
                     color: $white-color;
                     background: $template-color;
@@ -3845,7 +3849,7 @@ Product Details CSS
 	background: $white-color;
 	padding: 30px;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-    
+
     .product-img {
         a {
             display: block;
@@ -4124,7 +4128,7 @@ Cart CSS
                         text-align: center;
                         display: inline-block;
                         position: relative;
-        
+
                         input {
                             height: 45px;
                             color: $black-color;
@@ -4147,7 +4151,7 @@ Cart CSS
                             height: 100%;
                             line-height: 48px;
                             transition: $transition;
-        
+
                             &.minus-btn {
                                 left: 0;
                             }
@@ -4209,13 +4213,13 @@ Cart CSS
         padding: 0;
         margin: 0 0 25px;
         list-style-type: none;
-        
+
         li {
             border: 1px solid #eaedff;
             padding: 10px 15px;
             color: $paragraph-color;
             overflow: hidden;
-            
+
             &:first-child {
                 border-bottom: none;
             }
@@ -4291,7 +4295,7 @@ Checkout CSS
         table {
             margin-bottom: 0;
             text-align: left;
-    
+
             thead {
                 tr {
                     th {
@@ -4313,11 +4317,11 @@ Checkout CSS
                         color: $paragraph-color;
                         border-color: #eaedff;
                         font-size: 15px;
-    
+
                         &.product-name {
                             a {
                                 color: $paragraph-color;
-    
+
                                 &:hover {
                                     color: $template-color;
                                 }
@@ -4438,7 +4442,7 @@ Contact CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     background: $white-color;
     padding: 30px;
-    
+
     .icon {
         display: inline-block;
         width: 80px;
@@ -4543,7 +4547,7 @@ Portfolio Details CSS
                 li {
                     display: inline-block;
                     margin: 0;
-                    
+
                     a {
                         color: $paragraph-color;
                         margin-right: 10px;
@@ -4625,7 +4629,7 @@ Team Details CSS
         .skill-item {
             position: relative;
             margin-bottom: 25px;
-        
+
             .skill-header{
                 position: relative;
                 margin-bottom: 10px;
@@ -4683,7 +4687,7 @@ Login CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     padding: 40px;
     border-radius: 5px;
-    
+
     h3 {
         font: {
             size: 22px;
@@ -4741,7 +4745,7 @@ Signup CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     padding: 40px;
     border-radius: 5px;
-    
+
     h3 {
         font: {
             size: 22px;
@@ -5196,7 +5200,7 @@ Go Top CSS
 	line-height: 50px;
 	border-radius: 50%;
     transition: $transition;
-    
+
     &:hover {
         color: $white-color;
         background: $pink-color;

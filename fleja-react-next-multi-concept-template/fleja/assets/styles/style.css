@@ -10,7 +10,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 *******************************************
 
-==== INDEX PAGE CSS 
+==== INDEX PAGE CSS
 
 ** - Default CSS
 ** - Preloader CSS
@@ -998,7 +998,7 @@ Main Banner CSS
 }
 
 .digital-agency-banner {
-  background-image: url("../../images/banner-bg.jpg");
+  background-image: url("../../images/banner_bg.jpg");
   background-position: center center;
   background-size: cover;
   position: relative;
