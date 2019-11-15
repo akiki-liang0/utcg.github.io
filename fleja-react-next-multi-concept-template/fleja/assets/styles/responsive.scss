@@ -5,10 +5,10 @@ $value_one: 767px;
 $value_two: 768px;
 $value_three: 991px;
 $value_four: 992px;
-$value_five: 1199px;
+$value_five: 1279px;
 $value_six: 1650px;
 
-$template-color: #38d16a;
+$template-color: #ff3ac6;
 $pink-color: #F54EA2;
 $white-color: #ffffff;
 $black-color: #121619;
@@ -85,8 +85,10 @@ $bg-gray: #f9f9f9;
     }
     .artflex-nav {
         padding-top: 0;
-        background-color: #fff;
-        border-bottom: 1px solid #eee;
+        background-color: #000;
+        background-image: url('../../images/shapes/mobile_banner_nav.png');
+        //border-bottom: 1px solid #eee;
+        background-repeat: no-repeat;
         .navbar {
             padding: {
                 left: 0;
@@ -95,9 +97,10 @@ $bg-gray: #f9f9f9;
         }
         .navbar-light {
             .navbar-toggler {
-                border-color: rgba(0,0,0,1);
+                border-color: rgba(255,255,255,1);
                 outline: 0;
                 border-radius: 0;
+
             }
         }
         nav {
@@ -106,8 +109,8 @@ $bg-gray: #f9f9f9;
                 padding-bottom: 10px;
                 padding-left: 15px;
                 padding-right: 15px;
-                background-color: $white-color;
-    
+                background-color: $black-color;
+
                 .nav-item {
                     padding: 9px 0;
 
@@ -152,6 +155,20 @@ $bg-gray: #f9f9f9;
                 }
             }
         }
+        &.is-sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px 0;
+            z-index: 999;
+            box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+            background-color: $black-color !important;
+            background-image: url('../../images/shapes/mobile_banner_nav.png');
+
+            animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+            background-repeat: no-repeat
+        }
     }
     .shop-details .product-entry-summary form .input-counter {
         max-width: 120px;
@@ -185,12 +202,12 @@ $bg-gray: #f9f9f9;
         margin-top: 0;
     }
     .banner-image {
-        text-align: center;
+        text-align: centre;
         img {
             position: relative;
             top: 0;
             right: 0;
-            max-width: 330px; 
+            max-width: 330px;
             left: 0;
             margin: auto;
             width: 100%;
@@ -206,7 +223,7 @@ $bg-gray: #f9f9f9;
     .hero-image {
         margin-bottom: 30px;
     }
-    .shape1, .shape2, .shape7, .shape8, .shape5, .shape6, .shape10, .shape4, .shape3, .circle-shape1, .circle-shape2, .shape11, .shape12, .shape9, .shape14, .shape15, .shape13, .shape18, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .circle-dot {
+    .shape1, .shape4, .shape5, .shape6, .shape7, .shape9, .shape10, .circle-shape1, .circle-shape2, .shape11, .shape12, .shape9, .shape14, .shape15, .shape13, .shape18, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .circle-dot {
         display: none;
     }
     .circle-shape3 {
@@ -289,7 +306,7 @@ $bg-gray: #f9f9f9;
                     .owl-nav {
                         [class*=owl-] {
                             left: 5px;
-                            
+
                             &.owl-next {
                                 right: 5px;
                                 left: auto;
@@ -323,7 +340,7 @@ $bg-gray: #f9f9f9;
             }
         }
     }
-    
+
     .cta-about {
         padding: {
             top: 60px;
@@ -531,7 +548,7 @@ $bg-gray: #f9f9f9;
     .team-member-image {
         text-align: center;
     }
-    
+
     .boxes-area {
         &::before, &::after {
             background: #08071c;
@@ -572,7 +589,7 @@ $bg-gray: #f9f9f9;
             }
         }
     }
-    
+
     .features-boxes-area {
         padding-bottom: 30px;
 
@@ -749,7 +766,7 @@ $bg-gray: #f9f9f9;
             right: 0;
         }
     }
-    
+
     .funfacts-area {
         padding-bottom: 40px;
     }
@@ -1240,7 +1257,7 @@ $bg-gray: #f9f9f9;
         .contact-info-box {
             margin-bottom: 30px;
             padding: 20px 15px;
-            
+
             .icon {
                 width: 70px;
                 height: 70px;
@@ -1354,7 +1371,8 @@ $bg-gray: #f9f9f9;
     .digital-agency-banner {
         &::before {
             content: '';
-            background-color: #ffffff;
+            background-image: url('../../images/banner_bkg.jpg');
+            background-size: cover;
             height: 100%;
             width: 100%;
             left: 0;
@@ -1433,6 +1451,9 @@ $bg-gray: #f9f9f9;
         }
     }
     .artflex-nav {
+      background-image: url('../../images/shapes/cube_corner.png');
+      background-repeat: no-repeat;
+      background-color: $black-color;
         nav {
             .navbar-nav .nav-item a {
                 margin-left: 9px;
@@ -1440,7 +1461,7 @@ $bg-gray: #f9f9f9;
             }
             .others-option {
                 margin-left: 0;
-                
+
                 ul {
                     li {
                         &:last-child, &:first-child {
@@ -1449,6 +1470,20 @@ $bg-gray: #f9f9f9;
                     }
                 }
             }
+        }
+        &.is-sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px 0;
+            z-index: 999;
+            box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+            background-color: $black-color !important;
+            background-image: url('../../images/shapes/cube_corner.png');
+
+            animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+            background-repeat: no-repeat
         }
     }
 
@@ -1550,7 +1585,7 @@ $bg-gray: #f9f9f9;
             }
         }
     }
-    .shape1, .shape2, .shape8, .shape5, .shape10, .shape4, .shape3, .circle-shape1, .circle-shape2, .shape11, .shape12, .shape9, .shape14, .shape15, .shape13, .shape18, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .shape6, .shape7 {
+    .shape1, .shape4, .shape5, .shape6, .shape7, .shape9, .shape10, .circle-shape1, .circle-shape2, .shape11, .shape12, .shape13, .shape14, .shape15, .shape13, .shape18, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .shape6, .shape7 {
         display: none;
     }
     .circle-top {
@@ -1791,7 +1826,7 @@ $bg-gray: #f9f9f9;
             bottom: 30px;
         }
     }
-    
+
     .project-info {
         margin-top: 30px;
     }
@@ -1841,7 +1876,7 @@ $bg-gray: #f9f9f9;
     .digital-agency-banner {
         &::before {
             content: '';
-            background-color: #ffffff;
+            background-image: url("../../images/banner_bkg.jpg");
             height: 100%;
             width: 100%;
             left: 0;
@@ -1849,9 +1884,24 @@ $bg-gray: #f9f9f9;
             position: absolute;
             opacity: .80;
         }
+        /*&.d-table{
+          width: 100%;
+          height: 100%;
+
+          &-cell {
+              horizontal-align: middle;
+          }
+        }*/
     }
     .banner-social-buttons {
-        display: none;
+      display: block;
+      position: relative;
+      left: 0px;
+      top: 50%;
+      transform-origin: 0% 0%;
+      transform: translate(0%, 0%) rotate(0deg);
+
+
     }
     .navbar-brand {
         img {
@@ -1871,10 +1921,14 @@ $bg-gray: #f9f9f9;
     }
 }
 
-/* Min width (992px) to Max width (1199px) */
+/* Min width (992px) to Max width (1279px) */
 @media only #{$media} and ($feature_min : $value_four) and ($feature_max : $value_five) {
-    .shape1, .shape2, .shape8, .shape5, .shape10, .shape4, .shape3, .circle-shape2, .circle-shape3, .shape11, .shape12, .shape9, .shape14, .shape15, .shape13, .shape18, .shape6, .shape7, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .circle-dot {
+    .shape10, .circle-shape1, .circle-shape2, .circle-shape3, .shape11, .shape12, .shape14, .shape15, .shape13, .shape18, .shape6, .shape7, .shape19, .shape20, .shape21, .shape22, .shape23, .shape24, .shape25, .shape26, .circle-dot {
         display: none;
+    }
+    .shape8 {
+        left: 50%;
+        bottom: 20%;
     }
     .main-banner {
         height: 768px;
@@ -2062,12 +2116,17 @@ $bg-gray: #f9f9f9;
     .hero-content {
         margin-top: 0;
     }
-    .shape6 {
-        left: 8%;
+    .shape7 {
+        right: 25%;
+        top: 45%;
+    }
+    .shape8 {
+        left: 35%;
+        bottom: 10%;
     }
     .circle-shape1 {
-        right: 26%;
-        bottom: 30%;
+        right: 30%;
+        top: 55%;
     }
     .circle-shape2 {
         right: 15%;
@@ -2101,7 +2160,7 @@ $bg-gray: #f9f9f9;
         left: 10%;
         top: 45%;
     }
-    .footer-area {  
+    .footer-area {
         .shape18 {
             top: 30%;
             left: 10%;

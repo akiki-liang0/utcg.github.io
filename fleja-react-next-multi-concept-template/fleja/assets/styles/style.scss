@@ -58,7 +58,7 @@ Default CSS
 
 $font-family: 'Rubik', sans-serif;
 $paragraph-font-family: 'Open Sans', sans-serif;
-$template-color: #38d16a;
+$template-color: #ff3ac6;
 $pink-color: #F54EA2;
 $white-color: #ffffff;
 $black-color: #121619;
@@ -675,7 +675,6 @@ Navbar CSS
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
         background-color: $black-color !important;
         background-image: url('../../images/shapes/cube_corner.png');
-
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
         background-repeat: no-repeat
     }
@@ -960,7 +959,7 @@ Navbar CSS
 Main Banner CSS
 =================================================*/
 .main-banner {
-    background-color: $white-color;
+    background-color: $banner-color-dark;
     position: relative;
     z-index: 1;
     height: 810px;
@@ -997,7 +996,7 @@ Main Banner CSS
         list-style-type: none;
 
         li {
-            display: inline-block;
+            display: block;
             margin-right: 5px;
 
             a {

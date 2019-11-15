@@ -74,16 +74,16 @@ export class Navbar extends Component {
                                 </a>
                             </Link>
 
-                            <button 
-                                onClick={this.toggleNavbar} 
+                            <button
+                                onClick={this.toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
-                                <span className="navbar-toggler-icon"></span>
+                                <img src={require("../../images/nav_menu_icon.png")}/>
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
@@ -95,7 +95,7 @@ export class Navbar extends Component {
                                                     <a className="nav-link">Home</a>
                                                 </Link>
                                             </li>
-                                            
+
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/freelancer">
                                                     <a className="nav-link">Freelancer Portfolio </a>
@@ -139,7 +139,7 @@ export class Navbar extends Component {
                                             </li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/contact">
                                             <a className="nav-link">Contact</a>
