@@ -32,6 +32,7 @@ function getEvents (callback) {
                         start: new Date(event.start.dateTime || event.start.date),
                         end: new Date(event.end.dateTime || event.end.date),
                         title: event.summary,
+                        description: event.description,
                     }
                     events.push(ne)
                 }
@@ -40,6 +41,45 @@ function getEvents (callback) {
         }
     })
 }
+
+
+function printHi() {
+    console.log('hi');
+    return false;
+}
+
+
+class CustomEvent extends React.Component {
+    constructor(event) {
+        super();
+        this.state = {display: 'none'};
+        this.event = event.event;
+        this.toggleShowLink = this.toggleShowLink.bind(this)
+    }
+
+    toggleShowLink() {
+        if (this.state.display == 'none') {
+            this.setState({display: 'block'});
+        } else {
+            this.setState({display: 'none'});
+        }
+        console.log(this.state.display);
+    }
+
+    render() {
+        return (
+            <div className='rbc-event'>
+                <div className='rbc-event-content'>
+                    <div onClick={this.toggleShowLink}>{this.event.title}</div>
+                    <a href={this.event.description} target='_blank'
+                        style={{...this.state, ...{color: 'white'}}}>more details</a>
+                </div>
+            </div>
+            )
+    }
+}
+
+
 
 class BigCalendarComponent extends Component {
     state = {
@@ -60,6 +100,7 @@ class BigCalendarComponent extends Component {
             events={this.state.events}
             min={minTime}
             max={maxTime}
+            components={{event: CustomEvent}}
             />
         )
     }

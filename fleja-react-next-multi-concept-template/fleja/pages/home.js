@@ -18,6 +18,7 @@ import Funfacts from '../components/digital-agency-animation/Funfacts';
 import Blog from '../components/digital-agency-animation/Blog';
 import Partner from '../components/digital-agency-animation/Partner';
 import Contact from '../components/digital-agency-animation/Contact';
+import BigCalendarComponent from '../components/digital-agency-animation/BigCalendarComponent';
 
 export class index extends Component {
 
@@ -37,6 +38,7 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
+                <BigCalendarComponent />
                 <About />
                 <Services />
                 <WhyChooseUs />
