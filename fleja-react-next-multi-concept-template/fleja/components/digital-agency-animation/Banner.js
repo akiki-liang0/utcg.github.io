@@ -66,7 +66,7 @@ export class Banner extends Component {
                 <div className="shape6">
                     <img src={require("../../images/shapes/6.png")} alt="shape" />
                 </div>
-                <div class="shape7">
+                <div className="shape7">
                     <img src={require("../../images/shapes/ring_cyan.png")} alt="shape" />
                 </div>
                 <div className="shape8">
