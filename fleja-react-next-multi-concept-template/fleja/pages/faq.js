@@ -28,6 +28,15 @@ export class index extends Component {
                             <li>FAQ</li>
                         </ul>
                     </div>
+                    <div className="shape1">
+                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
+                    </div>
+                    <div className="shape2">
+                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
+                    </div>
+                    <div className="shape3">
+                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
+                    </div>
                 </div>
 
                 <section className="faq-area ptb-120">
@@ -116,25 +125,25 @@ export class index extends Component {
                                             <input type="text" placeholder="Name" className="form-control" />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
                                             <input type="email" placeholder="Email" className="form-control" />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
                                             <input type="text" placeholder="Subject" className="form-control" />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
                                             <textarea name="message" cols="30" rows="6" placeholder="Message" className="form-control" />
                                         </div>
                                     </div>
-                                    
+
                                     <div className="col-lg-12 col-md-12">
                                         <button className="btn btn-primary" type="submit">Submit Now!</button>
                                     </div>

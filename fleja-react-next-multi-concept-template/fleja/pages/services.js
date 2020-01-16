@@ -20,6 +20,15 @@ export class index extends Component {
                             <li>Our Services</li>
                         </ul>
                     </div>
+                    <div className="shape1">
+                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
+                    </div>
+                    <div className="shape2">
+                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
+                    </div>
+                    <div className="shape3">
+                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
+                    </div>
                 </div>
 
                 <section className="services-area ptb-120">
@@ -84,7 +93,7 @@ export class index extends Component {
                                     <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.</p>
                                 </div>
                             </div>
-                            
+
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-services-box">
                                     <div className="icon">

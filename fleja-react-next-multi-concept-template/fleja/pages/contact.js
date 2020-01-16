@@ -20,7 +20,18 @@ export class index extends Component {
                             <li>Contact Us</li>
                         </ul>
                     </div>
+                    <div className="shape1">
+                        <img src={require("../images/shapes/cube_corner.png")} alt="shape" />
+                    </div>
+                    <div className="shape2">
+                        <img src={require("../images/shapes/corner_top_rt.png")} alt="shape" />
+                    </div>
+                    <div className="shape3">
+                        <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
+                    </div>
                 </div>
+
+
 
                 <section className="contact-info-area pt-120">
                     <div className="container">
