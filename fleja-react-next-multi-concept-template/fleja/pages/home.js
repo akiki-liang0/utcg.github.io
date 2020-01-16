@@ -39,11 +39,14 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
-                <BigCalendarComponent />
-                <About />
-                <Services />
                 <FeaturedEvent />
+                <Services />
+                <Contact />
                 <Footer />
+                <About />
+
+
+
 
                 <WhyChooseUs />
                 <Partner />
@@ -56,7 +59,7 @@ export class index extends Component {
                 <Skills />
                 <Funfacts />
                 <Blog />
-                <Contact />
+
 
 
             </React.Fragment>
