@@ -19,7 +19,10 @@ import Blog from '../components/digital-agency-animation/Blog';
 import Partner from '../components/digital-agency-animation/Partner';
 import Contact from '../components/digital-agency-animation/Contact';
 import BigCalendarComponent from '../components/digital-agency-animation/BigCalendarComponent';
+<<<<<<< HEAD
 import FeaturedEvent from '../components/digital-agency-animation/FeaturedEvent';
+=======
+>>>>>>> 46b84aad6b326487eca38c6ab13af4c9e751cff7
 
 export class index extends Component {
 
@@ -39,6 +42,11 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
+<<<<<<< HEAD
+=======
+                <BigCalendarComponent />
+                <About />
+>>>>>>> 46b84aad6b326487eca38c6ab13af4c9e751cff7
                 <Services />
                 <FeaturedEvent />
                 <Footer />
