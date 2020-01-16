@@ -39,34 +39,34 @@ export class Banner extends Component {
                     </div>
                 </div>
 
-                <div class="shape1">
+                <div className="shape1">
 
                 </div>
-                <div class="shape2">
+                <div className="shape2">
 
                 </div>
-                <div class="shape3">
+                <div className="shape3">
 
                 </div>
-                <div class="shape4">
+                <div className="shape4">
                     <img src={require("../../images/shapes/4.png")} alt="shape" />
                 </div>
-                <div class="shape5">
+                <div className="shape5">
                     <img src={require("../../images/shapes/5.png")} alt="shape" />
                 </div>
-                <div class="shape6">
+                <div className="shape6">
                     <img src={require("../../images/shapes/6.png")} alt="shape" />
                 </div>
-                <div class="shape7">
+                <div className="shape7">
                     <img src={require("../../images/shapes/7.png")} alt="shape" />
                 </div>
-                <div class="shape8">
+                <div className="shape8">
                     <img src={require("../../images/shapes/8.png")} alt="shape" />
                 </div>
-                <div class="shape9 rotateme">
+                <div className="shape9 rotateme">
                     <img src={require("../../images/shapes/9.png")} alt="shape" />
                 </div>
-                <div class="shape10 rotateme">
+                <div className="shape10 rotateme">
                     <img src={require("../../images/shapes/10.png")} alt="shape" />
                 </div>
 
