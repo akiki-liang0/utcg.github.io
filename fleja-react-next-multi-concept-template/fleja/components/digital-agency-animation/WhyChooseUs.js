@@ -1,3 +1,4 @@
+// Upcoming Event
 import React, { Component } from 'react';
 
 export class WhyChooseUs extends Component {
@@ -16,7 +17,7 @@ export class WhyChooseUs extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="why-choose-us-content">
                                 <div className="section-title">
-                                    <span className="wow fadeInUp">WHy Choose Us</span>
+                                    <span className="wow fadeInUp">What do we do?</span>
                                     <h2 className="wow fadeInDown">We are creative, designers & developers</h2>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>

@@ -17,18 +17,21 @@ export class Banner extends Component {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1 className="wow fadeInUp">Siggraph Student Volunteer <br />  Info Session</h1>
+                                        <h1>Featured Event: </h1>
+                                        <br />
+                                        <h1 className="wow fadeInUp">Siggraph Student Volunteer Information Session</h1>
                                         <ul className="wow fadeInDown">
-                                            <li><a href="https://www.facebook.com/events/568018043769485/?active_tab=about" className="facebook"><i className="icofont-facebook"></i></a></li>
+                                            <li><a href="#" className="facebook"><i className="icofont-facebook"></i></a></li>
                                         </ul>
-                                        <p>Date: Thursday January 9th <br/>
-                                        Time: 6pm-8pm <br/>
-                                        Location: BA2185, Bahen Centre for Information Technology
-                                        <br/>
-                                        <br/>
-                                        event description
+                                        <p> Want to get involved with the most
+                                        important technical Computer Graphics conference
+                                        in the world? Hoping to find a career or meet
+                                        people involved with VFX, tooling, animation,
+                                        gaming and entertainment industries? The SIGGRAPH
+                                         2020 Conference will be waiting for you in
+                                         Washington, DC this summer!
                                         </p>
-                                        <a href="https://www.facebook.com/events/568018043769485/" className="btn btn-primary wow fadeInUp">Register</a>
+                                        <a href="/freelancer-portfolio-animation" className="btn btn-primary wow fadeInUp">More Info</a>
                                     </div>
                                 </div>
                             </div>
@@ -37,13 +40,13 @@ export class Banner extends Component {
                 </div>
 
                 <div class="shape1">
-                    <img src={require("../../images/shapes/cube_corner.png")} alt="shape" />
+
                 </div>
                 <div class="shape2">
-                    <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape" />
+
                 </div>
                 <div class="shape3">
-                    <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape" />
+
                 </div>
                 <div class="shape4">
                     <img src={require("../../images/shapes/4.png")} alt="shape" />

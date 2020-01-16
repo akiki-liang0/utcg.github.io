@@ -65,6 +65,7 @@ $black-color: #121619;
 $paragraph-color: #00ffff;
 $bg-gray: #f9f9f9;
 $banner-color-dark: #0f1239;
+$dark-blue-color: #124559;
 $transition: .5s;
 $font-size: 15px;
 
@@ -73,6 +74,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: $font-size;
+    background-color: $banner-color-dark;
 }
 img {
     max-width: 100%;
@@ -116,6 +118,15 @@ p {
     color: $white-color;
     font-weight: 500;
 }
+.ptb-20 {
+  padding: {
+        top: 20px;
+        bottom: 20px;
+  }
+}
+.pt-20 {
+  padding-top: 20px
+}
 .ptb-120 {
     padding: {
         top: 120px;
@@ -136,6 +147,9 @@ p {
         top: 50px;
         bottom: 50px;
     }
+}
+.pt-50 {
+  padding-top: 50px
 }
 .bg-38d16a {
     background-color: $template-color;
@@ -1180,7 +1194,7 @@ Main Banner CSS
             position: absolute;
             left: 0;
             top: 0;
-            background: $white-color;
+            background-image: url(../../images/main_bkg_1.jpg);
             width: 100%;
             height: 100%;
             opacity: .88;
@@ -1190,9 +1204,9 @@ Main Banner CSS
             position: absolute;
             z-index: -2;
             content: '';
+            background-image: url(../../images/main_bkg_1.jpg);
             width: 100%;
             height: 100%;
-            background-image: url(../../images/dot.png);
             left: 0;
             top: 0;
         }
@@ -1595,6 +1609,7 @@ Boxes Area CSS
 Services CSS
 =================================================*/
 .welcome-services {
+
     &.bg-38d16a {
         .section-title {
             span, h2 {
@@ -1602,9 +1617,11 @@ Services CSS
             }
         }
     }
+
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background-color: $banner-color-dark
 }
 .services-area {
     padding-bottom: 90px;
@@ -1619,7 +1636,7 @@ Services CSS
     text-align: center;
     margin-bottom: 30px;
     padding: 40px 25px;
-    background: $white-color;
+    background: $dark-blue-color;
     transition: $transition;
 
     .icon {
@@ -1691,11 +1708,11 @@ Services CSS
     margin-top: 30px;
 
     .btn-primary {
-        color: $template-color;
+        color: $white-color;
         background: $pink-color;
 
         &::before, &::after {
-            background: $white-color;
+            background: $template-color;
         }
         &:hover, &:focus {
             color: $white-color;
@@ -2521,7 +2538,8 @@ Team CSS
 
     &.bg-image {
         background: {
-            image: url(../../images/bg-shape.jpg);
+            color: $banner-color-dark;
+            //image: url(../../images/main_bkg_1.jpg);
             attachment: fixed;
             repeat: no-repeat;
             position: center center;
@@ -3254,20 +3272,23 @@ Page Title CSS
         top: 235px;
         bottom: 140px;
     }
+
+
     background: {
         position: center;
         attachment: fixed;
         repeat: no-repeat;
         size: cover;
+        image: url(../../images/main_bkg_1.jpg);
     }
     &::before {
         content: '';
         position: absolute;
         left: 0;
         top: 0;
-        background: $white-color;
-        width: 100%;
-        height: 100%;
+        //background: $black-color;
+        width: 50%;
+        height: 50%;
         opacity: .85;
         z-index: -1;
     }
@@ -3275,8 +3296,8 @@ Page Title CSS
         position: absolute;
         z-index: -2;
         content: '';
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-image: url(../../images/dot.png);
         left: 0;
         top: 0;
@@ -5011,7 +5032,7 @@ Footer CSS
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background: #08071c;
+    background: $banner-color-dark;
 
     .line-bg {
         position: absolute;

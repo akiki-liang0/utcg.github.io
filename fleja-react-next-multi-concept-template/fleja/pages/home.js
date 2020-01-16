@@ -18,10 +18,12 @@ import Funfacts from '../components/digital-agency-animation/Funfacts';
 import Blog from '../components/digital-agency-animation/Blog';
 import Partner from '../components/digital-agency-animation/Partner';
 import Contact from '../components/digital-agency-animation/Contact';
+import BigCalendarComponent from '../components/digital-agency-animation/BigCalendarComponent';
+import FeaturedEvent from '../components/digital-agency-animation/FeaturedEvent';
 
 export class index extends Component {
 
-    componentDidMount(){ 
+    componentDidMount(){
         this.setState({ display: true });
         new WOW.WOW({
             boxClass: 'wow',
@@ -37,22 +39,24 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
-                <About />
                 <Services />
+                <FeaturedEvent />
+                <Footer />
+
                 <WhyChooseUs />
+                <Partner />
+                <About />
                 <Crafting />
                 <Works />
                 <Feedback />
                 <HowWeWork />
-                <Team />
                 <Cta />
                 <Skills />
                 <Funfacts />
                 <Blog />
-                <Partner />
                 <Contact />
 
-                <Footer />
+
             </React.Fragment>
         );
     }

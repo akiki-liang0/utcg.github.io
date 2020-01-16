@@ -10,7 +10,7 @@ export class Footer extends Component {
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src={require("../../images/footer-logo.png")} alt="logo" />
+                                        <img src={require("../../images/logo.png")} alt="logo" />
                                     </a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -74,19 +74,19 @@ export class Footer extends Component {
                                 <ul className="footer-contact-info">
                                     <li>
                                         <i className="icofont-google-map"></i>
-                                        <span>Location:</span> 
+                                        <span>Location:</span>
                                         27 Division St, New York, NY 10002, USA
                                     </li>
 
                                     <li>
                                         <i className="icofont-phone"></i>
-                                        <span>Phone:</span> 
+                                        <span>Phone:</span>
                                         <a href="#">+44 014799584</a>
                                     </li>
 
                                     <li>
                                         <i className="icofont-email"></i>
-                                        <span>Email:</span> 
+                                        <span>Email:</span>
                                         <a href="#">support@fleja.com</a>
                                     </li>
                                 </ul>
@@ -109,7 +109,7 @@ export class Footer extends Component {
 
                 <img src={require("../../images/line-bg.png")} className="line-bg" alt="line-bg" />
                 <div className="shape23">
-                    <img src={require("../../images/shapes/23.png")} alt="shape" />
+                    <img src={require("../../images/shapes/footer_top.png")} alt="shape" />
                 </div>
                 <div className="shape24">
                     <img src={require("../../images/shapes/24.png")} alt="shape" />

@@ -13,10 +13,14 @@ import Funfacts from '../components/freelancer-portfolio-animation/Funfacts';
 import Works from '../components/freelancer-portfolio-animation/Works';
 import Feedback from '../components/freelancer-portfolio-animation/Feedback';
 import Blog from '../components/freelancer-portfolio-animation/Blog';
-
+import BigCalendarComponent from '../components/freelancer-portfolio-animation/BigCalendarComponent';
+import PastEvents from '../components/freelancer-portfolio-animation/PastEvents';
+import CalendarHeading from '../components/freelancer-portfolio-animation/CalendarHeading';
+import PastEventsHeading from '../components/freelancer-portfolio-animation/PastEventsHeading';
+import Partner from '../components/digital-agency-animation/Partner';
 export class index extends Component {
 
-    componentDidMount(){ 
+    componentDidMount(){
         this.setState({ display: true });
         new WOW.WOW({
             boxClass: 'wow',
@@ -32,17 +36,25 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
+                <CalendarHeading />
+                <BigCalendarComponent />
+                <PastEventsHeading />
+                <PastEvents />
+                <Cta />
+                <Partner />
+                <Footer />
+
+
                 <Features />
                 <About />
                 <Services />
-                <Cta />
                 <Skills />
                 <Funfacts />
                 <Works />
                 <Feedback />
                 <Blog />
 
-                <Footer />
+
             </React.Fragment>
         );
     }

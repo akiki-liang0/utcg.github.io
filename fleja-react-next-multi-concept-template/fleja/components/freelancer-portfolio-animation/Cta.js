@@ -6,9 +6,9 @@ export class Cta extends Component {
             <section className="cta-area ptb-120 bg-08071c">
                 <div className="container">
                     <div className="cta-content">
-                        <span className="wow fadeInUp">Looking for exclusive services?</span>
-					    <h2 className="wow fadeInDown">Get the best for your business</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span className="wow fadeInUp">Get In Touch</span>
+					    <h2 className="wow fadeInDown">Want to work with us? Let's talk!</h2>
+                        <p>Are you a representative of your company or orginization looking to work with UTCG? Do you want to suggest an event? Email us below.</p>
                         <a href="#" className="btn btn-primary wow fadeInUp">Contact Us</a>
                     </div>
                 </div>

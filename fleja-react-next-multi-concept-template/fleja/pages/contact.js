@@ -59,7 +59,7 @@ export class index extends Component {
                         </div>
                     </div>
                 </section>
-                
+
                 <section className="contact-area ptb-120">
                     <div className="container">
                         <div className="section-title">

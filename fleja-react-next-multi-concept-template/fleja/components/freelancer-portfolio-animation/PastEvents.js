@@ -8,8 +8,9 @@ const masonryOptions = {
 export class BlogBody extends Component {
     render() {
         return (
-            <section className="blog-section ptb-80">
+            <section className="blog-section ptb-50">
                 <div className="container">
+
                     {/* <div className="blog-items row"> */}
                     <Masonry
                         className={'blog-items row'} // default ''
@@ -37,7 +38,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post">
                                 <div className="blog-image">
@@ -57,7 +58,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post">
                                 <div className="blog-image">
@@ -77,7 +78,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post without-thumbnail">
                                 <div className="blog-post-content">
@@ -88,12 +89,12 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post with-video">
                                 <div className="blog-video">
                                     <iframe src="https://www.youtube.com/embed/Squv4KI751w" allowFullScreen></iframe>
-                                </div> 
+                                </div>
 
                                 <div className="blog-post-content">
                                     <span className="date">28 March, 2019</span>
@@ -128,7 +129,7 @@ export class BlogBody extends Component {
                             <div className="single-blog-post with-video">
                                 <div className="blog-video">
                                     <iframe src="https://www.youtube.com/embed/Squv4KI751w" allowFullScreen></iframe>
-                                </div> 
+                                </div>
 
                                 <div className="blog-post-content">
                                     <span className="date">21 Dec, 2019</span>
@@ -138,7 +139,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post">
                                 <div className="blog-image">
@@ -158,7 +159,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post without-thumbnail">
                                 <div className="blog-post-content">
@@ -169,7 +170,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post">
                                 <div className="blog-image">
@@ -209,7 +210,7 @@ export class BlogBody extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post without-thumbnail">
                                 <div className="blog-post-content">

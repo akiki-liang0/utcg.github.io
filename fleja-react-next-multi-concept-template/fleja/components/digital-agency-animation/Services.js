@@ -6,8 +6,8 @@ export class Services extends Component {
             <section className="welcome-services ptb-120 bg-38d16a">
                 <div className="container">
                     <div className="section-title">
-                        <span className="wow fadeInUp">Our Services</span>
-                        <h2 className="wow fadeInDown">Welcome to our business digital agency</h2>
+                        <span className="wow fadeInUp">What do we do?</span>
+                        <h2 className="wow fadeInDown">University of Toronto Computer Graphics Club</h2>
                     </div>
 
                     <div className="row">
@@ -16,8 +16,8 @@ export class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-dart"></i>
                                 </div>
-                                <h3>Digital Marketing</h3>
-                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo  maecenas accumsan lacus vel facilisis labore dolore magna aliqua.</p>
+                                <h3>Computer Graphics</h3>
+                                <p>Information about CG events and workshops.</p>
                             </div>
                         </div>
 
@@ -26,8 +26,8 @@ export class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-handshake-deal"></i>
                                 </div>
-                                <h3>Market Analysis</h3>
-                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo  maecenas accumsan lacus vel facilisis labore dolore magna aliqua.</p>
+                                <h3>Projects</h3>
+                                <p>Any projects the club has?</p>
                             </div>
                         </div>
 
@@ -36,8 +36,8 @@ export class Services extends Component {
                                 <div className="icon">
                                     <i className="icofont-pie-chart"></i>
                                 </div>
-                                <h3>Business Promotion</h3>
-                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo  maecenas accumsan lacus vel facilisis labore dolore magna aliqua.</p>
+                                <h3>Career/Networking</h3>
+                                <p>Infromation about Job fairs, conferences, etc.</p>
                             </div>
                         </div>
 

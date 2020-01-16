@@ -6,7 +6,7 @@ export class Team extends Component {
             <section className="team-area bg-image ptb-120">
                 <div className="container">
                     <div className="section-title">
-                        <span className="wow fadeInUp">Team Member</span>
+                        <span className="wow fadeInUp">Team Members</span>
                         <h2 className="wow fadeInDown">We have Quality Full team</h2>
                     </div>
 
@@ -67,6 +67,26 @@ export class Team extends Component {
                                 <div className="team-content">
                                     <h3>Kate Winslet</h3>
                                     <span>Web Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Monica Bellucci</h3>
+                                    <span>Web Developer</span>
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ export class Team extends Component {
             <section className="team-area bg-image ptb-120">
                 <div className="container">
                     <div className="section-title">
-                        <span>Team Member</span>
+                        <span>Meet the Team</span>
                         <h2>We have quality full team</h2>
                     </div>
 

@@ -22,7 +22,7 @@ import BigCalendarComponent from '../components/digital-agency-animation/BigCale
 
 export class index extends Component {
 
-    componentDidMount(){ 
+    componentDidMount(){
         this.setState({ display: true });
         new WOW.WOW({
             boxClass: 'wow',
