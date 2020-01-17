@@ -25,8 +25,8 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Jennifer Aniston</h3>
-                                    <span>Photographer</span>
+                                    <h3>Cheryl Lao</h3>
+                                    <span>President</span>
                                 </div>
                             </div>
                         </div>
@@ -45,11 +45,13 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Monica Bellucci</h3>
-                                    <span>Web Developer</span>
+                                    <h3>Roya Shams</h3>
+                                    <span>Vice President</span>
                                 </div>
                             </div>
                         </div>
+
+
 
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="single-team">
@@ -65,12 +67,12 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Kate Winslet</h3>
-                                    <span>Web Designer</span>
+                                    <h3>Chanz Valmonte</h3>
+                                    <span>Vice President Internal</span>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
@@ -85,8 +87,130 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Monica Bellucci</h3>
-                                    <span>Web Developer</span>
+                                    <h3>Vishnu G. Varma</h3>
+                                    <span>Treasurer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Patsy Jian</h3>
+                                    <span>Graphic Designer/Developer</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Akiki Liang</h3>
+                                    <span>First Year Rep/Developer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="https://github.com/rikingurditta"><i className="icofont-github"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Rinkin Gurditta</h3>
+                                    <span>General Executive/Developer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Muhammad Khattak</h3>
+                                    <span>General Executive/Developer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Anushka Saini</h3>
+                                    <span>General Executive</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-team">
+                                <div className="team-image">
+                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
+                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+
+                                    <ul className="social-links">
+                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
+                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
+                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="team-content">
+                                    <h3>Sally Chiu</h3>
+                                    <span>General Executive</span>
                                 </div>
                             </div>
                         </div>
