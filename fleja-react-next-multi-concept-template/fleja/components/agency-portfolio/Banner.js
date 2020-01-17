@@ -36,7 +36,7 @@ export class Banner extends Component {
                 className="home-slides agency-portfolio-home owl-carousel owl-theme"
                 {...options}
             >
-                <div className="main-banner item-bg4">
+                <div className="main-banner">
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
@@ -50,7 +50,7 @@ export class Banner extends Component {
                                                             isVisible ? "animated fadeInDown" : ''
                                                         }
                                                     >
-                                                        We are creative digital agency
+                                                        Image Gallery
                                                     </h1>
                                                 </div>
                                             </div>
@@ -76,7 +76,7 @@ export class Banner extends Component {
                                                             isVisible ? "animated fadeInDown" : ''
                                                         }
                                                     >
-                                                        We are creative digital agency
+                                                        Image Gallery
                                                     </h1>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@ export class Banner extends Component {
                                                             isVisible ? "animated fadeInDown" : ''
                                                         }
                                                     >
-                                                        We are creative digital agency
+                                                        Image Gallery
                                                     </h1>
                                                 </div>
                                             </div>

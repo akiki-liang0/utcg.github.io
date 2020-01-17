@@ -15,8 +15,12 @@ export class Portfolio extends Component {
 
                         <div className="portfolio-overlay">
                             <div className="portfolio-content">
-                                <h3><a href="#">Digital Marketing</a></h3>
-                                <span>Branding</span>
+                                <h3>{image.relatedLink ? 
+                                         <a href={`${image.relatedLink}`}>{image.title}</a> :
+                                         <a href="#">{image.title}</a>
+                                    }
+                                </h3>
+                                <span>{image.description}</span>
                             </div>
                         </div>
                     </div>
@@ -27,8 +31,8 @@ export class Portfolio extends Component {
             <section className="portfolio-area ptb-120 bg-08071c">
                 <div className="container">
                     <div className="section-title">
-                        <span>Our Works</span>
-                        <h2>We Have Completed 2K Project Successfully</h2>
+                        <span>Pictures</span>
+                        <h2>Some pictures from some of our past events!</h2>
                     </div>
                 </div>
 
@@ -48,7 +52,12 @@ export class Portfolio extends Component {
 
 Portfolio.defaultProps = {
     images: [
-        { image: require("../../images/work-image/1.jpg") },
+        { 
+            image: require("../../images/lego_alain.jpg"), 
+            title: "SIGGRAPH Info Session 2020", 
+            description: "A photo of some of the exec team from the SIGGRAPH 2020 Information Session!",
+            relatedLink: "https://www.facebook.com/events/568018043769485/"
+        },
         { image: require("../../images/work-image/2.jpg") },
         { image: require("../../images/work-image/7.jpg") },
         { image: require("../../images/work-image/8.jpg") },
