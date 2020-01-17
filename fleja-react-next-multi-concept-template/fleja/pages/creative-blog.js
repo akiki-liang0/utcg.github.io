@@ -9,7 +9,6 @@ export class index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Bannar />
-                <BlogBody />
 
                 <Footer />
             </React.Fragment>
