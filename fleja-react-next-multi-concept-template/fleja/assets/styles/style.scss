@@ -80,7 +80,7 @@ img {
     max-width: 100%;
 }
 a {
-    color: $black-color;
+    color: $white-color;
     display: inline-block;
     transition: $transition;
     text-decoration: none;
@@ -3331,7 +3331,7 @@ Page Title CSS
                 top: 50%;
                 width: 2px;
                 height: 14px;
-                background: $black-color;
+                background: $white-color;
                 margin-top: -7px;
                 transform: rotate(10deg);
             }
