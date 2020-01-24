@@ -3129,6 +3129,9 @@ Blog CSS
             }
             line-height: 30px;
             font-size: 22px;
+            a {
+              color: $white-color;
+            }
         }
     }
     .read-more-btn {

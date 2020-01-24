@@ -12,7 +12,7 @@ export class index extends Component {
                 <Navbar />
                 <Banner />
                 <Portfolio />
-                <Partner />
+                {/* <Partner /> */}
 
                 <Footer />
             </React.Fragment>

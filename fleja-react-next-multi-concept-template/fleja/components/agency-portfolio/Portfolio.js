@@ -15,8 +15,12 @@ export class Portfolio extends Component {
 
                         <div className="portfolio-overlay">
                             <div className="portfolio-content">
-                                <h3><a href="#">Digital Marketing</a></h3>
-                                <span>Branding</span>
+                                <h3>{image.relatedLink ? 
+                                         <a href={`${image.relatedLink}`}>{image.title}</a> :
+                                         <div style={{color: "black"}}>{image.title}</div>
+                                    }
+                                </h3>
+                                <span>{image.description}</span>
                             </div>
                         </div>
                     </div>
@@ -27,8 +31,8 @@ export class Portfolio extends Component {
             <section className="portfolio-area ptb-120 bg-08071c">
                 <div className="container">
                     <div className="section-title">
-                        <span>Our Works</span>
-                        <h2>We Have Completed 2K Project Successfully</h2>
+                        <span>Pictures</span>
+                        <h2>Some pictures from some of our past events!</h2>
                     </div>
                 </div>
 
@@ -46,29 +50,16 @@ export class Portfolio extends Component {
     }
 }
 
+// Add images to the gallery here
+// Provide any relevant information (note: relatedLink not required )
 Portfolio.defaultProps = {
     images: [
-        { image: require("../../images/work-image/1.jpg") },
-        { image: require("../../images/work-image/2.jpg") },
-        { image: require("../../images/work-image/7.jpg") },
-        { image: require("../../images/work-image/8.jpg") },
-        { image: require("../../images/work-image/5.jpg") },
-        { image: require("../../images/work-image/6.jpg") },
-        { image: require("../../images/work-image/9.jpg") },
-        { image: require("../../images/work-image/11.jpg") },
-        { image: require("../../images/work-image/10.jpg") },
-        { image: require("../../images/work-image/12.jpg") },
-        { image: require("../../images/work-image/4.jpg") },
-        { image: require("../../images/work-image/13.jpg") },
-        { image: require("../../images/work-image/14.jpg") },
-        { image: require("../../images/work-image/3.jpg") },
-        { image: require("../../images/work-image/15.jpg") },
-        { image: require("../../images/work-image/16.jpg") },
-        { image: require("../../images/work-image/17.jpg") },
-        { image: require("../../images/work-image/18.jpg") },
-        { image: require("../../images/work-image/19.jpg") },
-        { image: require("../../images/work-image/20.jpg") },
-        { image: require("../../images/work-image/21.jpg") },
+        { 
+            image: require("../../images/lego_alain.jpg"), 
+            title: "SIGGRAPH Info Session 2020", 
+            description: "A photo of some of the exec team from the SIGGRAPH 2020 Information Session!",
+            relatedLink: "https://www.facebook.com/events/568018043769485/"
+        },
     ]
 }
 

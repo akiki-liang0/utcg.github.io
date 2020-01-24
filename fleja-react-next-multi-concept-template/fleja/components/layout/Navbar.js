@@ -194,6 +194,12 @@ export class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link activeClassName="active" href="/about-us">
+                                            <a className="nav-link">About</a>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
                                       <Link activeClassName="active" href="/freelancer-portfolio-animation">
                                             <a className="nav-link">Events</a>
                                       </Link>

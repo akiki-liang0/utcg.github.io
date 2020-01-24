@@ -17,8 +17,6 @@ export class Banner extends Component {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1>Featured Event: </h1>
-                                        <br />
                                         <h1 className="wow fadeInUp">Siggraph Student Volunteer Information Session</h1>
                                         <ul className="wow fadeInDown">
                                             <li><a href="#" className="facebook"><i className="icofont-facebook"></i></a></li>
