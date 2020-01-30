@@ -37,6 +37,7 @@
     "react-accessible-accordion": "^3.0.0",
     "react-big-calendar": "^0.23.0",
     "react-bootstrap": "^1.0.0-beta.16",
+    "react-device-detect": "^1.11.14",
     "react-dom": "^16.9.0",
     "react-image-lightbox": "^5.1.0",
     "react-masonry-component": "^6.2.1",
