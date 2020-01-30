@@ -55,6 +55,7 @@ Default CSS
 =================================================*/
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import 'node_modules/react-big-calendar/lib/sass/styles';
 
 $font-family: 'Rubik', sans-serif;
 $paragraph-font-family: 'Open Sans', sans-serif;
@@ -347,6 +348,63 @@ p {
                 }
             }
         }
+    }
+}
+
+.calendar-modal {
+    .modal-content {
+        width: 600;
+        background-color: $banner-color-dark;
+        color: $white-color;
+        a {
+            color: $paragraph-color;
+            &:hover, &:focus {
+                color: $template-color;
+                text-decoration: none;
+            }
+        }
+    }
+
+    button.close {
+        color: white;
+    }
+}
+
+.rbc-calendar {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    color: $white-color;
+    .rbc-toolbar {
+        color: #FFF;
+        button {
+            color: #AAA;
+        }
+        button.rbc-active {
+            color: $banner-color-dark;
+        }
+    }
+    .rbc-off-range-bg {
+        background: $black-color;
+    }
+
+    .rbc-event, .rbc-event-selected, .rbc-event.rbc-selected {
+        font-size: 11;
+        overflow-wrap: normal;
+        color: $banner-color-dark;
+        background-color: $white-color;
+    }
+
+    .rbc-event-title {
+        overflow-wrap: normal;
+    }
+
+    .rbc-event-info {
+        font-size: 10;
+    }
+
+    .rbc-today {
+        background-color: $template-color;
     }
 }
 
