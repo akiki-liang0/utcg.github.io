@@ -7,7 +7,7 @@ export class Team extends Component {
                 <div className="container">
                     <div className="section-title">
                         <span className="wow fadeInUp">Team Members</span>
-                        <h2 className="wow fadeInDown">We have Quality Full team</h2>
+                        <h2 className="wow fadeInDown">Meet UTCG's Executive Team</h2>
                     </div>
 
                     <div className="row">
@@ -38,15 +38,13 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/roya_makes_stuff/"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
                                 <div className="team-content">
                                     <h3>Roya Shams</h3>
-                                    <span>Vice President</span>
+                                    <span>Vice President External</span>
                                 </div>
                             </div>
                         </div>
@@ -122,9 +120,8 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li><a href="#"><i className="icofont-linkedin"></i></a></li>
+                                        <li><a href="#"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -202,9 +199,7 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/sketchedbysally/"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 

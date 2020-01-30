@@ -120,6 +120,26 @@ export class BlogBody extends Component {
                         </div>
                     </div>
 
+                    <div className="col-lg-4 col-md-6 grid-items">
+                        <div className="single-blog-post">
+                            <div className="blog-image">
+                                <a href="#">
+                                    <img src={require("../../images/featured-event-image/cookie.jpg")} alt="image" />
+                                </a>
+
+                                <div className="post-tag">
+                                    <a href="#">Entertainment</a>
+                                </div>
+                            </div>
+
+                            <div className="blog-post-content">
+                                <span className="date">4 April, 2019</span>
+                                <h3><a href="#">Bake Sale, Treats & Cookie Decoration</a></h3>
+                                <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                         <div className="col-lg-4 col-md-6 grid-items">
                             <div className="single-blog-post">
                                 <div className="blog-image">
@@ -221,26 +241,20 @@ export class BlogBody extends Component {
                         </div>
 
                         <div className="col-lg-4 col-md-6 grid-items">
-                            <div className="single-blog-post without-thumbnail">
-                                <div className="blog-post-content">
-                                    <span className="date">01 Feb, 2019</span>
-                                    <h3><a href="#">The 15 Best Time Tracking Apps of 2019</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut.</p>
-                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/holography.jpg")} alt="image" />
+                                    </a>
 
-                        <div className="col-lg-4 col-md-6 grid-items">
-                            <div className="single-blog-post with-video">
-                                <div className="blog-video">
-                                    <iframe src="https://www.youtube.com/embed/Squv4KI751w" allowFullScreen></iframe>
+                                    <div className="post-tag">
+                                        <a href="#">Workshop</a>
+                                    </div>
                                 </div>
 
                                 <div className="blog-post-content">
-                                    <span className="date">28 March, 2019</span>
-                                    <h3><a href="#">7 Surefire Ways to Annoy Your Clients</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut.</p>
+                                    <span className="date">26 Oct, 2018</span>
+                                    <h3><a href="#">Holography: The Art and Science of Holograms</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
@@ -250,32 +264,17 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/blog-image/4.jpg")} alt="image" />
+                                        <img src={require("../../images/featured-event-image/handwriting-parser-workshop.jpg")} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
-                                        <a href="#">Technology</a>
+                                        <a href="#">Workshop</a>
                                     </div>
                                 </div>
 
                                 <div className="blog-post-content">
-                                    <span className="date">25 Jan, 2019</span>
-                                    <h3><a href="#">The Guide to Running a Client Discovery Process</a></h3>
-                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 grid-items">
-                            <div className="single-blog-post with-video">
-                                <div className="blog-video">
-                                    <iframe src="https://www.youtube.com/embed/Squv4KI751w" allowFullScreen></iframe>
-                                </div>
-
-                                <div className="blog-post-content">
-                                    <span className="date">21 Dec, 2019</span>
-                                    <h3><a href="#">3 Ways to Get Client Approval for Scope Changes</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut.</p>
+                                    <span className="date">6 Mar, 2018</span>
+                                    <h3><a href="#">Computer Vision Workshop: Reading Handwritten Text</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
@@ -285,28 +284,17 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/blog-image/5.jpg")} alt="image" />
+                                        <img src={require("../../images/featured-event-image/autodesk-tour.jpg")} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
-                                        <a href="#">Agency</a>
+                                        <a href="#">Workshop</a>
                                     </div>
                                 </div>
 
                                 <div className="blog-post-content">
-                                    <span className="date">24 Feb, 2019</span>
-                                    <h3><a href="#">How to Build a Business Dashboard for Your Inbound Marketing Agency</a></h3>
-                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 grid-items">
-                            <div className="single-blog-post without-thumbnail">
-                                <div className="blog-post-content">
-                                    <span className="date">01 Aug, 2019</span>
-                                    <h3><a href="#">5 Color Choice Mistakes You Should Avoid in Web Design</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut.</p>
+                                    <span className="date">6 Feb, 2018</span>
+                                    <h3><a href="#">Autodesk 3D Printing Demo & Tour</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
@@ -316,17 +304,17 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/blog-image/6.jpg")} alt="image" />
+                                        <img src={require("../../images/featured-event-image/movie-night.jpg")} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
-                                        <a href="#">IT</a>
+                                        <a href="#">Entertainment</a>
                                     </div>
                                 </div>
 
                                 <div className="blog-post-content">
-                                    <span className="date">24 Feb, 2019</span>
-                                    <h3><a href="#">6 Small Things That Are Making You Less Productive</a></h3>
+                                    <span className="date">17 Nov, 2017</span>
+                                    <h3><a href="#">UTCG Movie Night</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
@@ -336,32 +324,122 @@ export class BlogBody extends Component {
                             <div className="single-blog-post">
                                 <div className="blog-image">
                                     <a href="#">
-                                        <img src={require("../../images/blog-image/7.jpg")} alt="image" />
+                                        <img src={require("../../images/featured-event-image/research-talk.jpg")} alt="image" />
                                     </a>
 
                                     <div className="post-tag">
-                                        <a href="#">IT</a>
+                                        <a href="#">Research</a>
                                     </div>
                                 </div>
 
                                 <div className="blog-post-content">
-                                    <span className="date">28 Feb, 2019</span>
-                                    <h3><a href="#">6 Ways Agencies Can Generate More Leads</a></h3>
+                                    <span className="date">13 Oct, 2017</span>
+                                    <h3><a href="#">UTCG Research Talk: Generalized Matryoshka</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 grid-items">
-                            <div className="single-blog-post without-thumbnail">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/kickoff.jpg")} alt="image" />
+                                    </a>
+
+                                    <div className="post-tag">
+                                        <a href="#">Workshop</a>
+                                    </div>
+                                </div>
+
                                 <div className="blog-post-content">
-                                    <span className="date">01 Sep, 2019</span>
-                                    <h3><a href="#">The 4 Types of Clients Every Agency Outgrows</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut.</p>
+                                    <span className="date">25 Sep, 2017</span>
+                                    <h3><a href="#">UTCG Kickoff Meeting + Hololens Demo</a></h3>
                                     <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-lg-4 col-md-6 grid-items">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/design-fabricate.jpg")} alt="image" />
+                                    </a>
+
+                                    <div className="post-tag">
+                                        <a href="#">Research</a>
+                                    </div>
+                                </div>
+
+                                <div className="blog-post-content">
+                                    <span className="date">4 Apr, 2017</span>
+                                    <h3><a href="#">Research Talk by David Levin: Design & Fabrication by Example</a></h3>
+                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 grid-items">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/pixar-story.jpg")} alt="image" />
+                                    </a>
+
+                                    <div className="post-tag">
+                                        <a href="#">Entertainment</a>
+                                    </div>
+                                </div>
+
+                                <div className="blog-post-content">
+                                    <span className="date">16 Feb, 2017</span>
+                                    <h3><a href="#">UTCG The Pixar Story Movie Screening and Chat</a></h3>
+                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 grid-items">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/photoshop-workshop.jpg")} alt="image" />
+                                    </a>
+
+                                    <div className="post-tag">
+                                        <a href="#">Workshop</a>
+                                    </div>
+                                </div>
+
+                                <div className="blog-post-content">
+                                    <span className="date">23 Jan, 2017</span>
+                                    <h3><a href="#">Photoshop Workshop</a></h3>
+                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 grid-items">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <a href="#">
+                                        <img src={require("../../images/featured-event-image/dgp-lab-tour.png")} alt="image" />
+                                    </a>
+
+                                    <div className="post-tag">
+                                        <a href="#">Tour</a>
+                                    </div>
+                                </div>
+
+                                <div className="blog-post-content">
+                                    <span className="date">29 Nov, 2016</span>
+                                    <h3><a href="#">UTCG Dynamic Graphics Project (DGP) Lab Tour</a></h3>
+                                    <a href="#" className="read-more-btn">Read More <i className="icofont-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
                     </Masonry>
 
                     <div className="row">
@@ -371,8 +449,6 @@ export class BlogBody extends Component {
                                     <ul className="pagination justify-content-center">
                                         <li className="page-item"><a className="page-link" href="#"><i className="icofont-double-left"></i></a></li>
                                         <li className="page-item active"><a className="page-link" href="#">1</a></li>
-                                        <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                        <li className="page-item"><a className="page-link" href="#">3</a></li>
                                         <li className="page-item"><a className="page-link" href="#"><i className="icofont-double-right"></i></a></li>
                                     </ul>
                                 </nav>

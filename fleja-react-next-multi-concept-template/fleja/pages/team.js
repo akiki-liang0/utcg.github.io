@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Navbar from '../components/layout/Navbar';
+import VolunteersHeading from '../components/digital-agency-animation/VolunteersHeading';
 import Footer from '../components/layout/Footer';
 import Team from '../components/digital-agency-animation/Team';
-
+import Volunteers from '../components/digital-agency-animation/Volunteers';
 export class index extends Component {
     render() {
         return (
@@ -33,7 +34,8 @@ export class index extends Component {
                 </div>
 
                 <Team />
-
+                <VolunteersHeading />
+                <Volunteers />
                 <Footer />
             </React.Fragment>
         );
