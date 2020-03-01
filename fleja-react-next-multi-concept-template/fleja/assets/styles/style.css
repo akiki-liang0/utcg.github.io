@@ -4702,7 +4702,7 @@ Contact CSS
   transition: 0.5s;
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-  background: #ffffff;
+  background: #191548;
   padding: 30px;
 }
 
@@ -4711,7 +4711,7 @@ Contact CSS
   width: 80px;
   height: 80px;
   line-height: 80px;
-  background: #edf5ff;
+  background: #191548;
   border-radius: 50%;
   font-size: 30px;
   color: #38d16a;
