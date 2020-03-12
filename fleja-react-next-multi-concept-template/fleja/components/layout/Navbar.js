@@ -88,7 +88,7 @@ export class Navbar extends Component {
 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
-                                    {/* <li className="nav-item"><a href="#" className="nav-link">Template Stuff <i className="icofont-simple-down"></i></a>
+                                    {/*<li className="nav-item"><a href="#" className="nav-link">Template Stuff <i className="icofont-simple-down"></i></a>
                                         <ul className="dropdown_menu">
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/error">
@@ -101,17 +101,11 @@ export class Navbar extends Component {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </li> */}
+                                    </li>*/}
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/home">
                                             <a className="nav-link">Home</a>
-                                        </Link>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/about-us">
-                                            <a className="nav-link">About</a>
                                         </Link>
                                     </li>
 
@@ -136,18 +130,6 @@ export class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/agency-portfolio">
                                             <a className="nav-link">Gallery</a>
-                                        </Link>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/services">
-                                            <a className="nav-link">Resources</a>
-                                        </Link>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/faq">
-                                            <a className="nav-link">FAQs</a>
                                         </Link>
                                     </li>
                                 </ul>

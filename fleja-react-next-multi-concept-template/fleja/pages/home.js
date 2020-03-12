@@ -43,22 +43,7 @@ export class index extends Component {
                 <Services />
                 <Contact />
                 <Footer />
-                <About />
 
-
-
-
-                <WhyChooseUs />
-                <Partner />
-                <About />
-                <Crafting />
-                <Works />
-                <Feedback />
-                <HowWeWork />
-                <Cta />
-                <Skills />
-                <Funfacts />
-                <Blog />
 
 
 
