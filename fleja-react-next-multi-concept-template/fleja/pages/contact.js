@@ -41,30 +41,31 @@ export class index extends Component {
                                     <div className="icon">
                                         <i className="icofont-email"></i>
                                     </div>
-                                    <h3>Mail Here</h3>
-                                    <p><a href="#">admin@artflex.com</a></p>
-                                    <p><a href="#">info@artflex.com</a></p>
+                                    <h3>e-Mail Us</h3>
+                                    <p><a href="#">utcomputergraphics@gmail.com</a></p>
+                                    <p> </p>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6">
                                 <div className="contact-info-box">
                                     <div className="icon">
-                                        <i className="icofont-google-map"></i>
+                                        <i className="icofont-facebook"></i>
                                     </div>
-                                    <h3>Visit Here</h3>
-                                    <p>1660 Travis Street Miramar, FL 33025, California</p>
+                                    <h3>Visit Facebook page</h3>
+                                    <a href="https://www.facebook.com/UTComputerGraphics">Our Facebook</a>
+                                    <p> </p>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                                 <div className="contact-info-box">
                                     <div className="icon">
-                                        <i className="icofont-phone"></i>
+                                        <i className="icofont-email"></i>
                                     </div>
-                                    <h3>Call Here</h3>
-                                    <p><a href="#">+123 456 7890</a></p>
-                                    <p><a href="#">+241 452 4526</a></p>
+                                    <h3>Join Mailing List</h3>
+                                    <a href="http://eepurl.com/dGyWHr?fbclid=IwAR1VSrHcZcBTUEcFPBovD0sJ2mcxKPaSFr0qrXL_kkM_XRv02tRMbDncwx4">Join now!</a>
+                                    <p> </p>
                                 </div>
                             </div>
                         </div>

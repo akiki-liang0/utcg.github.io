@@ -9,48 +9,48 @@ export class AboutUsArea extends Component {
                         <div className="col-lg-8">
                             <div className="about-us-content">
                                 <div className="section-title">
-                                    <h2>Welcome To Our Business Digital Agency</h2>
+                                    <h2>What We Do</h2>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                {/* <p>We </p> */}
 
                                 <div className="row m-0">
-                                    <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+                                    <div className="col-lg-6 col-md-6 col-sm-6 pr-3 pl-0">
                                         <div className="single-about-box">
                                             <div className="icon">
                                                 <i className="icofont-dart"></i>
                                             </div>
-                                            <h3>Digital Marketing</h3>
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo maecenas jisan.</p>
+                                            <h3>Our Mission</h3>
+                                            <p>Our mission is to create a supportive learning community for people who are interested in any part of computer graphics!</p>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+                                    <div className="col-lg-6 col-md-6 col-sm-6 pr-0 pl-3">
+                                        <div className="single-about-box">
+                                            <div className="icon">
+                                                <i className="icofont-briefcase"></i>
+                                            </div>
+                                            <h3>What We Do / Services?</h3>
+                                            <p>We provide graphics-related workshops, research talks, field trips and social events.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6 col-sm-6 pr-3 pl-0">
+                                        <div className="single-about-box">
+                                            <div className="icon">
+                                                <i className="icofont-laptop"></i>
+                                            </div>
+                                            <h3>Discover</h3>
+                                            <p>Discover interests you never knew you had and learn more about Computer Graphics through our exciting workshops and events.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6 col-sm-6 pr-0 pl-3">
                                         <div className="single-about-box">
                                             <div className="icon">
                                                 <i className="icofont-handshake-deal"></i>
                                             </div>
-                                            <h3>Market Analysis</h3>
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo maecenas jisan.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                        <div className="single-about-box">
-                                            <div className="icon">
-                                                <i className="icofont-pie-chart"></i>
-                                            </div>
-                                            <h3>Business Promotion</h3>
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo maecenas jisan.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                        <div className="single-about-box">
-                                            <div className="icon">
-                                                <i className="icofont-live-support"></i>
-                                            </div>
-                                            <h3>Live Support</h3>
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo maecenas jisan.</p>
+                                            <h3>Meet</h3>
+                                            <p>Come to our social events and meet Employers, Innovators, Professors and other graphics-loving students to develop key connections.</p>
                                         </div>
                                     </div>
                                 </div>

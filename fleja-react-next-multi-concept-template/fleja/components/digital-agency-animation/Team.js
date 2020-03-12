@@ -146,7 +146,7 @@ export class Team extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Rinkin Gurditta</h3>
+                                    <h3>Rikin Gurditta</h3>
                                     <span>General Executive/Developer</span>
                                 </div>
                             </div>
