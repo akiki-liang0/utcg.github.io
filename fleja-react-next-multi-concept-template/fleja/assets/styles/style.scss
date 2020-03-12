@@ -391,7 +391,6 @@ p {
     }
 
     .rbc-event, .rbc-event-selected, .rbc-event.rbc-selected {
-        font-size: 11;
         overflow-wrap: normal;
         color: $banner-color-dark;
         background-color: $white-color;
@@ -399,10 +398,11 @@ p {
 
     .rbc-event-title {
         overflow-wrap: normal;
+        font-size: 13px;
     }
 
     .rbc-event-info {
-        font-size: 10;
+        font-size: 12px;
     }
 
     .rbc-today {
