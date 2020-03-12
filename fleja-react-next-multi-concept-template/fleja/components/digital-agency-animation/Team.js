@@ -216,7 +216,7 @@ export class Team extends Component {
                     <img src={require("../../images/circle-shape.png")} alt="circle" />
                 </div>
                 <div className="shape2">
-                    <img src={require("../../images/shapes/2.png")} alt="shape" />
+                    <img src={require("../../images/shapes/ring_cyan.png")} alt="shape" />
                 </div>
                 <div className="shape10 rotateme">
                     <img src={require("../../images/shapes/10.png")} alt="shape" />
