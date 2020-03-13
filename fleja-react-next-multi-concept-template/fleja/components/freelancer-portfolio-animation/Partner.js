@@ -28,8 +28,8 @@ export class Partner extends Component {
         display:false
     }
 
-    componentDidMount(){ 
-        this.setState({ display: true }) 
+    componentDidMount(){
+        this.setState({ display: true })
     }
 
     render() {
@@ -37,7 +37,7 @@ export class Partner extends Component {
             <div className="partner-area ptb-120 bg-38d16a">
                 <div className="container">
                     <div className="row">
-                        {this.state.display ? <OwlCarousel 
+                        {this.state.display ? <OwlCarousel
                             className="partner-slides owl-carousel owl-theme"
                             {...options}
                         >

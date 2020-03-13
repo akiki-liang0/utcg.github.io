@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// The event descriptions that go in the 'Recent Post' column of the footer 
+// The event descriptions that go in the 'Recent Post' column of the footer
 const recentEvents = [
     {
         eventLink: "https://www.facebook.com/events/1839793892820474/",
@@ -53,7 +53,7 @@ export class Footer extends Component {
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src={require("../../images/logo.png")} alt="logo" />
+                                        <img src={require("../../images/logo_white.png")} alt="logo" />
                                     </a>
                                 </div>
                                 <p>Here are some links to some things you might be interested in.</p>
@@ -89,12 +89,12 @@ export class Footer extends Component {
                                 <h3>Recent Post</h3>
 
                                 <ul className="footer-recent-post">
-                                    {recentEvents && 
+                                    {recentEvents &&
                                         recentEvents.map((revent, idx) => (
                                            <li key={`footer-recent-events-${idx}`}>
                                                 <a href={`${revent.eventLink}`}>{revent.eventTitle}</a>
                                                 <span>{revent.eventDate}</span>
-                                           </li> 
+                                           </li>
                                         ))
                                     }
                                 </ul>
@@ -145,7 +145,7 @@ export class Footer extends Component {
 
                 <img src={require("../../images/line-bg.png")} className="line-bg" alt="line-bg" />
                 <div className="shape23">
-                    <img src={require("../../images/shapes/footer_top.png")} alt="shape" />
+                    <img src={require("../../images/shapes/23.png")} alt="shape" />
                 </div>
                 <div className="shape24">
                     <img src={require("../../images/shapes/24.png")} alt="shape" />

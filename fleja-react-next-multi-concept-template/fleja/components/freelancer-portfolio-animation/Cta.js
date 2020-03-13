@@ -8,7 +8,7 @@ export class Cta extends Component {
                     <div className="cta-content">
                         <span className="wow fadeInUp">Get In Touch</span>
 					    <h2 className="wow fadeInDown">Want to work with us? Let's talk!</h2>
-                        <p>Are you a representative of your company or orginization looking to work with UTCG? Do you want to suggest an event? Email us below.</p>
+                        <p>Are you a representative of your company or orginization looking to work with UTCG? Do you want to suggest an event? Contact us below.</p>
                         <a href="#" className="btn btn-primary wow fadeInUp">Contact Us</a>
                     </div>
                 </div>

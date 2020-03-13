@@ -41,7 +41,6 @@ export class index extends Component {
                 <PastEventsHeading />
                 <PastEvents />
                 <Cta />
-                <Partner />
                 <Footer />
 
 

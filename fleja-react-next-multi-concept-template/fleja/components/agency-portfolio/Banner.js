@@ -25,14 +25,14 @@ export class Banner extends Component {
         display: false
     }
 
-    componentDidMount(){ 
-        this.setState({ display: true }) 
+    componentDidMount(){
+        this.setState({ display: true })
     }
 
     render() {
         return (
             <React.Fragment>
-            {this.state.display ? <OwlCarousel 
+            {this.state.display ? <OwlCarousel
                 className="home-slides agency-portfolio-home owl-carousel owl-theme"
                 {...options}
             >
@@ -60,57 +60,14 @@ export class Banner extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="main-banner item-bg5">
-                    <div className="d-table">
-                        <div className="d-table-cell">
-                            <div className="container">
-                                <div className="row">
-                                    <VisibilitySensor>
-                                        {({ isVisible }) => (
-                                            <div className="col-lg-12">
-                                                <div className="hero-content">
-                                                    <h1
-                                                        className={
-                                                            isVisible ? "animated fadeInDown" : ''
-                                                        }
-                                                    >
-                                                        Image Gallery
-                                                    </h1>
-                                                </div>
-                                            </div>
-                                        )}
-                                    </VisibilitySensor>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="shape1">
+                        <img src={require("../../images/shapes/cube_corner.png")} alt="shape" />
                     </div>
-                </div>
-
-                <div className="main-banner item-bg6">
-                    <div className="d-table">
-                        <div className="d-table-cell">
-                            <div className="container">
-                                <div className="row">
-                                    <VisibilitySensor>
-                                        {({ isVisible }) => (
-                                            <div className="col-lg-12">
-                                                <div className="hero-content">
-                                                    <h1
-                                                        className={
-                                                            isVisible ? "animated fadeInDown" : ''
-                                                        }
-                                                    >
-                                                        Image Gallery
-                                                    </h1>
-                                                </div>
-                                            </div>
-                                        )}
-                                    </VisibilitySensor>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="shape2">
+                        <img src={require("../../images/shapes/corner_top_rt.png")} alt="shape" />
+                    </div>
+                    <div class="shape3">
+                        <img src={require("../../images/shapes/corner_bot_left.png")} alt="shape" />
                     </div>
                 </div>
                 </OwlCarousel> : ''}
