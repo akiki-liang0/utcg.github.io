@@ -117,4 +117,3 @@ class BigCalendarComponent extends Component {
 }
 
 export default BigCalendarComponent;
-

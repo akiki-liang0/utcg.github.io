@@ -45,16 +45,6 @@ export class index extends Component {
                 <Footer />
 
 
-                <Features />
-                <About />
-                <Services />
-                <Skills />
-                <Funfacts />
-                <Works />
-                <Feedback />
-                <Blog />
-
-
             </React.Fragment>
         );
     }

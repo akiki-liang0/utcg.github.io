@@ -128,7 +128,7 @@ export class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="/agency-portfolio">
+                                        <Link activeClassName="active" href="/gallery">
                                             <a className="nav-link">Gallery</a>
                                         </Link>
                                     </li>
