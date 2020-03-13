@@ -64,8 +64,8 @@ class CustomEvent extends React.Component {
                         <Modal.Title>{this.event.title}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <div>{timeString + "\n" + this.event.location}</div>
-                        <div dangerouslySetInnerHTML={{__html: this.event.description} /* dangerous!!! */}></div>
+                        <div>{timeString + "\n" + (this.event.location==undefined ? "" : this.event.location)}</div>
+                        <div dangerouslySetInnerHTML={{__html: (this.event.description==undefined ? "" : this.event.description)} /* dangerous!!! */}></div>
                     </Modal.Body>
                 </Modal>
             </div>

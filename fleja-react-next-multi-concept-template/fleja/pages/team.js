@@ -32,10 +32,7 @@ export class index extends Component {
                         <img src={require("../images/shapes/corner_bot_left.png")} alt="shape" />
                     </div>
                 </div>
-
                 <Team />
-                <VolunteersHeading />
-                <Volunteers />
                 <Footer />
             </React.Fragment>
         );
