@@ -11,25 +11,21 @@ export class Banner extends Component {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <img src={require("../../images/featured-event-image/siggraph.jpg")} alt="man" />
+                                        <img src={require("../../images/featured-event-image/the-midway.jpg")} alt="man" />
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1 className="wow fadeInUp">Siggraph Student Volunteer Information Session</h1>
+                                        <h1 className="wow fadeInUp">The Midway: A VFX Breakdown</h1>
                                         <ul className="wow fadeInDown">
-                                            <li><a href="#" className="facebook"><i className="icofont-facebook"></i></a></li>
+                                            <li><a href="#" target="_blank" className="facebook"><i className="icofont-facebook"></i></a></li>
                                         </ul>
-                                        <p> Want to get involved with the most
-                                        important technical Computer Graphics conference
-                                        in the world? Hoping to find a career or meet
-                                        people involved with VFX, tooling, animation,
-                                        gaming and entertainment industries? The SIGGRAPH
-                                         2020 Conference will be waiting for you in
-                                         Washington, DC this summer!
+                                        <p> The Midway's computer graphics supervisor, Evgeny (Johny) Berbasov, is visiting U of T to talk about the incredible VFX work that went into creating the film!
+
+The event will also be followed by a talk by Jos Stam!
                                         </p>
-                                        <a href="/freelancer-portfolio-animation" className="btn btn-primary wow fadeInUp">More Info</a>
+                                        <a href="/events" className="btn btn-primary wow fadeInUp">More Info</a>
                                     </div>
                                 </div>
                             </div>

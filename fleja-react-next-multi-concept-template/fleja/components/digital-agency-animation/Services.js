@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class Services extends Component {
     render() {
         return (
-            <section className="welcome-services ptb-120 bg-38d16a">
+            <section className="welcome-services pt-120 bg-38d16a">
                 <div className="container">
                     <div className="section-title">
                         <span className="wow fadeInUp">What do we do?</span>
@@ -38,12 +38,6 @@ export class Services extends Component {
                                 </div>
                                 <h3>Career/Networking</h3>
                                 <p>Infromation about Job fairs, conferences, etc.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12">
-                            <div className="more-services-btn wow fadeInUp">
-                                <a href="services-2.html" className="btn btn-primary">More Services</a>
                             </div>
                         </div>
                     </div>

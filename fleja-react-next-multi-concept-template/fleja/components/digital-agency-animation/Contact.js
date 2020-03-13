@@ -4,18 +4,16 @@ import Link from 'next/link';
 export class Contact extends Component {
     render() {
         return (
-            <section className="contact-cta-area ptb-120">
+            <section className="contact-cta-area ptb-120">s
                 <div className="container">
                     <div className="contact-cta-content">
                         <div className="section-title">
                             <span className="wow fadeInUp">Get in Touch</span>
-                            <h2 className="wow fadeInDown">Want to work with us? Let's talk about project!</h2>
+                            <h2 className="wow fadeInDown">Want to work with us? Chat with us!</h2>
                         </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                        <Link href="#">
-                            <a className="btn btn-primary wow fadeInUp">Contact Us</a>
-                        </Link>
+                        <p>UTCG works has worked with countless graphics, software, development companies to bring workshops, job fairs, research talks, and much more to the students of U of T, as well as those outside.</p>
+                            <a href="mailto:utcomputergraphics@gmail.com" className="btn btn-primary wow fadeInUp">Contact Us</a>
                     </div>
                 </div>
 

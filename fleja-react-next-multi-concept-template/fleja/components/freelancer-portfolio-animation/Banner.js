@@ -11,24 +11,26 @@ export class Banner extends Component {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <img src={require("../../images/featured-event-image/siggraph.jpg")} alt="man" />
+                                        <img src={require("../../images/featured-event-image/the-midway.jpg")} alt="man" />
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1 className="wow fadeInUp">Siggraph Student Volunteer <br />  Info Session</h1>
+                                        <h1 className="wow fadeInUp">The Midway: <br />  A VFX Breakdown</h1>
                                         <ul className="wow fadeInDown">
-                                            <li><a href="https://www.facebook.com/events/568018043769485/?active_tab=about" className="facebook"><i className="icofont-facebook"></i></a></li>
+                                            <li><a href="https://www.facebook.com/events/234280584373323/" target="_blank" className="facebook"><i className="icofont-facebook"></i></a></li>
                                         </ul>
-                                        <p>Date: Thursday January 9th <br/>
-                                        Time: 6pm-8pm <br/>
-                                        Location: BA2185, Bahen Centre for Information Technology
+                                        <p>Date: Thursday March 9th <br/>
+                                        Time: 6pm-9pm <br/>
+                                        Location: BA1210, Bahen Centre for Information Technology
                                         <br/>
                                         <br/>
-                                        event description
+                                        The Midway's computer graphics supervisor, Evgeny (Johny) Berbasov, is visiting U of T to talk about the incredible VFX work that went into creating the film!
+
+The event will also be followed by a talk by Jos Stam!
                                         </p>
-                                        <a href="https://www.facebook.com/events/568018043769485/" className="btn btn-primary wow fadeInUp">Register</a>
+                                        <a href="http://bit.ly/2WbNKRV" target="_blank" className="btn btn-primary wow fadeInUp">Register</a>
                                     </div>
                                 </div>
                             </div>

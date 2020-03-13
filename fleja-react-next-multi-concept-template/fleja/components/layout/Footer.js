@@ -59,9 +59,9 @@ export class Footer extends Component {
                                 <p>Here are some links to some things you might be interested in.</p>
 
                                 <ul className="social-links">
-                                    <li><a href="https://www.facebook.com/UTComputerGraphics"><i className="icofont-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/UTComputerGraphics" target="_blank"><i className="icofont-facebook"></i></a></li>
                                     {/* <li><a href="#"><i className="icofont-twitter"></i></a></li> */}
-                                    <li><a href="https://www.instagram.com/utcomputergraphics/"><i className="icofont-instagram"></i></a></li>
+                                    <li><a href="https://www.instagram.com/utcomputergraphics/" target="_blank"><i className="icofont-instagram"></i></a></li>
                                     {/* <li><a href="#"><i className="icofont-pinterest"></i></a></li> */}
                                 </ul>
                             </div>
