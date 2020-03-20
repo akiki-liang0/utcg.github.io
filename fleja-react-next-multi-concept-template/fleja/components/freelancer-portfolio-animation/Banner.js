@@ -11,26 +11,27 @@ export class Banner extends Component {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <img src={require("../../images/featured-event-image/the-midway.jpg")} alt="man" />
+                                        <img src={require("../../images/shapes/teapot_grey.png")} alt="man" />
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hero-content">
-                                        <h1 className="wow fadeInUp">The Midway: <br />  A VFX Breakdown</h1>
+                                        <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
                                         <ul className="wow fadeInDown">
-                                            <li><a href="https://www.facebook.com/events/234280584373323/" target="_blank" className="facebook"><i className="icofont-facebook"></i></a></li>
+                                            <li><a href="#" target="_blank" className="facebook"><i className="icofont-facebook"></i></a></li>
                                         </ul>
-                                        <p>Date: Thursday March 9th <br/>
-                                        Time: 6pm-9pm <br/>
-                                        Location: BA1210, Bahen Centre for Information Technology
-                                        <br/>
-                                        <br/>
-                                        The Midway's computer graphics supervisor, Evgeny (Johny) Berbasov, is visiting U of T to talk about the incredible VFX work that went into creating the film!
+                                        <p>We hope that everybody is safe and adjusting to working from home! As many of you already know, we have cancelled our remaining events for this school year. <br/>
+                                        We are planning to bring our speakers back for our scheduled talks once it is safe to do so, but in the meantime, we will be sharing cool graphics-related content on our Facebook page. <br/>
 
-The event will also be followed by a talk by Jos Stam!
+In happier news, Ed Catmull and Pat Hanrahan just received this year’s ACM Turing award for fundamental contributions to 3D computer graphics! <a href="https://awards.acm.org/about/2019-turing" target="_blank">https://awards.acm.org/about/2019-turing</a>
+<br/> <br/>
+All the best, <br/>
+Cheryl Lao <br/>
+President<br/>
+University of Toronto Computer Graphics Club (UTCG)
                                         </p>
-                                        <a href="http://bit.ly/2WbNKRV" target="_blank" className="btn btn-primary wow fadeInUp">Register</a>
+                                        <a href="/home" className="btn btn-primary wow fadeInUp">Back To Home</a>
                                     </div>
                                 </div>
                             </div>
