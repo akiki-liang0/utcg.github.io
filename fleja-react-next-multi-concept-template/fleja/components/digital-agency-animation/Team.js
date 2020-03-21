@@ -14,13 +14,11 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/1.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+                                    <img src={require("../../images/team-image/president.jpg")} className="member-img" alt="team" />
+
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
+                                        <li><a href="https://github.com/Cheryl-Lao"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -34,8 +32,7 @@ export class Team extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-team">
                                 <div className="team-image">
-                                    <img src={require("../../images/team-image/2.jpg")} className="member-img" alt="team" />
-                                    <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
+                                    <img src={require("../../images/team-image/vice_president_e.jpg")} className="member-img" alt="team" />
 
                                     <ul className="social-links">
                                         <li><a href="https://www.instagram.com/roya_makes_stuff/"><i className="icofont-instagram"></i></a></li>
@@ -58,9 +55,6 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -78,9 +72,6 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -98,9 +89,6 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -120,8 +108,8 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-linkedin"></i></a></li>
-                                        <li><a href="#"><i className="icofont-github"></i></a></li>
+                                        <li><a href="https://ca.linkedin.com/in/akiki-liang-830019177"><i className="icofont-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/akiki-liang0"><i className="icofont-github"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -139,9 +127,7 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
                                         <li><a href="https://github.com/rikingurditta"><i className="icofont-github"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -159,9 +145,6 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -179,9 +162,6 @@ export class Team extends Component {
                                     <img src={require("../../images/team-image/team-back.jpg")} className="back-image" alt="back-image" />
 
                                     <ul className="social-links">
-                                        <li><a href="#"><i className="icofont-facebook"></i></a></li>
-                                        <li><a href="#"><i className="icofont-twitter"></i></a></li>
-                                        <li><a href="#"><i className="icofont-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
