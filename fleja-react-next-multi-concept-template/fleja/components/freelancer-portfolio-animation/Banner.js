@@ -8,14 +8,8 @@ export class Banner extends Component {
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">
-                            <div className="row h-100 align-items-center">
-                                <div className="col-lg-6 col-md-12">
-                                    <div className="banner-image">
-                                        <img src={require("../../images/shapes/teapot_grey.png")} alt="man" />
-                                    </div>
-                                </div>
 
-                                <div className="col-lg-6 col-md-12">
+
                                     <div className="hero-content">
                                         <h1 className="wow fadeInUp">Hi UTCG Community!</h1>
                                         <ul className="wow fadeInDown">
@@ -33,8 +27,7 @@ University of Toronto Computer Graphics Club (UTCG)
                                         </p>
                                         <a href="/home" className="btn btn-primary wow fadeInUp">Back To Home</a>
                                     </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
